@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ClongAlgorithm_Example' do
+  pod 'ClongAlgorithm', :path => '../'
+
+  target 'ClongAlgorithm_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
